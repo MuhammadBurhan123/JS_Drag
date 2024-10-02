@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.resizable {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 5px solid #007BFF;
+    /* Border for resizing */
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    /* Ensures padding and border are included in the element's total width and height */
+    cursor: e-resize;
+    /* Cursor change to indicate resizing */
+}
